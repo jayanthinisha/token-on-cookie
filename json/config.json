@@ -1,0 +1,9 @@
+{
+    "title": "Apollo",
+    "colors": {
+        "aprimary": "#ad5e99",
+        "asecondary": "#008080",
+        "awarning": "#ad5e99",
+        "asuccess": "#ad5e99"
+    }
+}

@@ -1,0 +1,21 @@
+<p>{{title}}</p>
+
+<div class="m-5">
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">{{userName.displayName}}</label>
+          <input [type]="userName.type" class="form-control" id="exampleInputEmail1" [placeholder]="userName.placeHolder" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">{{userName.helpText}}</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">{{password.displayName}}</label>
+          <input [type]="password.type" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        
+      </form>
+      <button class="btn btn-primary" (click)="login()" >Submit</button>
+</div>
